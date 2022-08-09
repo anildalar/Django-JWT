@@ -1,0 +1,24 @@
+Backend Application 										<-------API (username:password)------ Clients
+1. Public Data (No Authentication required)
+2. Private Data (Yes Authentication required)				<-------API (token JWT)------ Clients
+
+
+Authentication
+JWT = JSON WEB TOKEN 
+
+
+1. User --------> (username:password)---------->Django/DRF
+2. User <-------- (JWT TOken) <--------------- Django/DRF/DRF-SIMPLEJWT
+
+
+3. User -------->(JWT TOken) --------------->Django/DRF
+
+4. User --------> Private Data  ------>Django/DRF
+
+
+
+https://simpleisbetterthancomplex.com/tutorial/2018/12/19/how-to-use-jwt-authentication-with-django-rest-framework.html
+
+https://github.com/jazzband/djangorestframework-simplejwt
+
+https://django-rest-framework-simplejwt.readthedocs.io/en/latest/getting_started.html#installation
